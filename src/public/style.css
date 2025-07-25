@@ -1,0 +1,126 @@
+body {
+   /* background-image: url(/src/public/background.jpg);
+    background-repeat: repeat-x;
+    background-position: right;
+    background-size: cover; */
+    background-color: hwb(0 0% 100%);
+    width: 80%;
+    margin: auto;
+}
+div.container-father {
+    background-color: #fff;
+}
+div.container-h1 {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+div.container-abertura p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+div.container-abertura {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff;
+}
+div.div-header-top {
+    background-color: hwb(49 24% 0%);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+div.div-header-top li a {
+    color: #660099;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div.div-header-top li {
+    list-style-type: none;
+    text-align: center;
+}
+div.container-second-text h3{
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    background-color: #fff;
+    margin-top: 0px;
+}
+div.container-second-text {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+div.container-menu-operacoes {
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin: auto;
+    line-height: 25px;
+}
+div.container-menu-operacoes a {
+    text-decoration: none;
+}
+div.container-second img {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+div.container-second p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px 10px 50px 10px;
+}
+div.container-img {
+    width: 64%;
+    margin: auto;
+}
+div.container-img img {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+div.container-load-code {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+div.container-img-tmp-ram-load img {
+    width: 64%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 30px 10px 30px 10px;
+}
+div.container-exibe-hardware-ul {
+    width: 40%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin: auto;
+    line-height: 25px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+div.container-exibe-hardware-ul a {
+    width: 100%;
+    text-decoration: none;
+}
+div.container-exibe-hardware-ul li {
+    list-style-type: none;
+
+}
+.container-p-hardware-exiber {
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div.container-footer {
+    padding: 1px;
+    background-color: hwb(49 24% 0%);
+    text-align: center;
+}
+div.container-footer a {
+    text-decoration: none;
+}

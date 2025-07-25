@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina inicial</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container-father">
+        <div class="div-header-top">
+            <header class="container-header-top">
+                <ul>
+                    <li style="text-align: left;"> <a style="border: 1px solid rgba(0, 0, 0,0.3); padding: 5px; border-radius: 8px; background-color: black; color: #fff;" href="https://www.github.com/programador001dat" target="_blank" title="github.com/programador001dat"> repositorio </a> </li>
+                </ul>
+            </header>
+        </div>
+
+        <div class="container-h1">
+            <h1> Linguagem de programação C </h1>
+            <hr>
+        </div>
+        <div class="container-abertura"> 
+            <p> 
+                A linguagem de programação C criada por <ins>Dennis Ritchi.</ins> programador de hardware em 1972. Está
+                linguagem de programação foi declara por ser de<ins> baixo nível, </ins>isso significa controle com o
+                hardware do computador, e sendo funcional em qualquer sistema operacional. C é uma linguagem poderosa
+                e eficiente para a aréa de desenvolvimento de software de sistema. Seu nível de apredizado pode ser 
+                difícl, mais quando nós falamos em <ins>desempenho de hardware</ins> pode aposta é C.
+            </p>
+        </div>
+        <div class="container-second-text">
+            <h3> Quais componentes do hardware podemos manipular </h3>
+            <div class="container-menu-operacoes">
+                <ul>
+                    <li> <a href="/monitor_hardware.png"> Controle do estado de carga </a></li>
+                    <li> <a href="/monitor_hardware.png"> Controle sobre a tempuratura da CPU </a></li>
+                    <li> <a href=""> Acesso a gavetas e unidades de Memória RAM </a></li>
+                    <li> <a href="/info_kernel.png" target="_blank"> Executar codigo direto no Kernel do OS </a></li>
+                    <li> <a href=""> Informações sobre sistema</a></li>
+                </ul>
+            </div>
+            <div class="container-second">
+                <h3> Monitor de informações Kernel </h3>
+                <div class="container-img">
+                    <img src="/info_kernel.png" alt="imagem info_kernel_exemple_code" title="codigo sobre informações sistema operacional kernel">
+                </div>
+                <h3> Analise do Codigo </h3>
+                <p>
+                    Este é um codigo escrito em linguagem C, responsável por retornar <ins>informações do kernel</ins>,
+                    versão demo e versão completo do hardware, tipo de arquitetura e qual sistema está em uso. Instalado 
+                    no hardware. Utiliza-se neste codigo modulos nativos do proprio hardware como <ins>stdio.h</ins> responsável
+                    pelam entrada e saido da resposta do programa. Por exemplo um <ins>printf</ins>. O modulo <ins>sys/utsname</ins> é 
+                    para fazer a busca das informações do nosso hardware, logo em seguida, salvaremos os dados em uma variavél 
+                    armazenada em unidade de memória.
+                    <a href="https://github.com/programador001dat/Information_Kernel_C" target="_blank" title="github.com/programador001dat">para mais informações sobre este codigo.</a>
+                
+                </p>
+            </div>
+        </div>
+        
+        <div class="container-load-code">
+            <hr>
+            <h3> Monitor de Hardware </h3>
+            <div class="container-img-tmp-ram-load">
+                <img src="/monitor_hardware.png" alt="codigo monitor de hardware" title="codigo monitor de hardware com linguagem C">
+            </div>
+            <h3> Analise do Codigo </h3>  
+            <div class="container-exibe-hardware-ul">
+                <ul>
+                    <li> <a href="/monitor_hardware.png" target="_blank"> Temperatura dos núcleos da <strong>CPU</strong> </a></li>
+                    <li> <a href="/monitor_hardware.png" target="_blank"> Uso da memória <strong>RAM</strong> </a></li>
+                    <li> <a href="/monitor_hardware.png" target="_blank"> Carga média do sistema operacional </a></li>
+                </ul>
+            </div>
+            <p class="container-p-hardware-exiber">
+                Esses <ins>#include</ins> importam as bibliotecas necessárias <ins>stdio.h, stdlib.h, string.h:</ins> funçao
+                padrão de entrada, saída, alocação de memória e manipulaçao de strings.<br><ins>sensors/sensors.h:</ins> biblioteca
+                <ins>libsensors</ins> para obter dados de sensores do sistema(como arquitetura).<br><ins>unistd.h:</ins> fornece
+                sleep() e outras funções <strong>POSIX.</strong><br><br>
+                Função: <strong>view_temp()</strong> Detecta os chips com sensores disponíveis no sistema <ins>sensors_get_detect_chips</ins>.
+                Para cada chip, percorre suas "features" <ins>caracteristicas do sensor</ins>.
+                Verifica se a features é do tipo SENSORS_FEATURES_TEMP (temperatura).
+                Pega a subfeature de entrada de temperatura<strong> TEM_INPUT </strong>
+                Lê o valor da temperatura com <ins>sensors_get_value()</ins> e exibe no console.
+                <a href="https://github.com/programador001dat/monitor_hardware" target="_blank" title="github/programador001dat"> para mais informações sobre este codigo. </a>
+            </p>
+        </div>
+
+        <div class="container-footer">
+            <footer>
+                <p style="font-weight: 800;"><a href="https://github.com/programador001dat" target="_blank"> pagina para desenvolvedores C </a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
